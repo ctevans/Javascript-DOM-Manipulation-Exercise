@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+    <title>
+        Resort Page
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Table Exercise (DOM Manipulation)</h1>
+    <form id="my-form" action="#" method="GET">
+        <label for="name">
+            Name:
+            <input id="name" name="name" type="text">
+        </label>
+        <label for="address">
+            Address:
+            <input id="address" name="address" type="text">
+        </label>
+        <label for="phoneNumber">
+            Phone Number:
+            <input id="phoneNumber" name="phoneNumber" type="text">
+        </label>
+        <label for="bookings">
+            Bookings:
+            <input id="bookings" name="bookings" type="text">
+        </label>
+        <input type="submit" value="Add to Table">
+    </form>
+    <table id="my-table">
+        <thead>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Phone Number</th>
+            <th>Bookings</th>
+        </thead>
+        <tbody id="my-table-body"></tbody>
+    </table>
+</body>
+
+</html>
